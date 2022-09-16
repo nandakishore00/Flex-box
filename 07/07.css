@@ -26,8 +26,6 @@
 .cards{
     display:flex;
     margin:20px;
-
-    width:100%;
     padding:10px;
     flex-wrap: wrap;
  
@@ -35,7 +33,53 @@
 .sub-cards{
     height:300px;
     display:flex;
-    width:300px;
+
+    margin:20px;
+    border:4px solid white;
+    justify-content: center;
+    box-shadow:2px 2px 2px 2px black;
+}
+.footer{
+display:flex;
+background-color: rgb(176, 176, 176);
+align-items: center;
+justify-content: center;
+height:40px;
+}*{
+    margin:0px;
+}
+.heading{
+    background-color: purple;
+    padding:20px;
+    font-size: 2em;
+    color:azure
+}
+.links{
+    display:flex;
+    flex-direction:column;
+
+    width:18vw;
+    background-color: blanchedalmond;
+    padding-left:20px;
+    
+}
+.sublink{
+    margin:10px;
+}
+.container{
+
+    display:flex;
+}
+.cards{
+    display:flex;
+    margin:20px;
+    padding:10px;
+    flex-wrap: wrap;
+ 
+}
+.sub-cards{
+    height:300px;
+    display:flex;
     margin:20px;
     border:4px solid white;
     justify-content: center;
