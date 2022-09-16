@@ -45,20 +45,20 @@ margin-left:0px;
 .innerchild-2{
     display: flex;
     flex-direction: row;
-    
+   
     width:50%;
     padding:0px;
  
 }
 .notification-child{
-    display:flex;
+    
     margin-left:0px;
     background-color: purple;
-    color:white;
-    justify-content: center;
-    align-items: center;
-    width:200px;
+    color:#ffffff;
+    width:50%;
+
     margin:8px;
+    margin-left:40px;
     border-radius:8px;
     
 
@@ -67,7 +67,6 @@ margin-left:0px;
 {
 display:flex;
 width:100px;
-
 justify-content: center;
 align-items: center;
 padding:0px;
